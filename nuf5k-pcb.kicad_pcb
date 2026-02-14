@@ -10,22 +10,22 @@
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
-		(9 "F.Adhes" user)
-		(11 "B.Adhes" user)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
 		(13 "F.Paste" user)
 		(15 "B.Paste" user)
-		(5 "F.SilkS" user)
-		(7 "B.SilkS" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
 		(1 "F.Mask" user)
 		(3 "B.Mask" user)
-		(17 "Dwgs.User" user)
-		(19 "Cmts.User" user)
-		(21 "Eco1.User" user)
-		(23 "Eco2.User" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
 		(25 "Edge.Cuts" user)
 		(27 "Margin" user)
-		(31 "F.CrtYd" user)
-		(29 "B.CrtYd" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
 		(35 "F.Fab" user)
 		(33 "B.Fab" user)
 	)
@@ -239,24 +239,18 @@
 	(net 162 "unconnected-(R8-Pad3)")
 	(net 163 "unconnected-(R8-Pad1)")
 	(net 164 "unconnected-(R8-Pad2)")
-	(net 165 "unconnected-(J2-Pad1)")
-	(net 166 "unconnected-(J2-Pad2)")
-	(net 167 "unconnected-(J2-Pad5)")
-	(net 168 "unconnected-(J2-Pad6)")
-	(net 169 "unconnected-(J2-Pad3)")
-	(net 170 "unconnected-(J2-Pad4)")
-	(net 171 "unconnected-(J3-Pad3)")
-	(net 172 "unconnected-(J3-Pad1)")
-	(net 173 "unconnected-(J3-Pad5)")
-	(net 174 "unconnected-(J3-Pad6)")
-	(net 175 "unconnected-(J3-Pad2)")
-	(net 176 "unconnected-(J3-Pad4)")
-	(net 177 "unconnected-(J4-Pad6)")
-	(net 178 "unconnected-(J4-Pad2)")
-	(net 179 "unconnected-(J4-Pad5)")
-	(net 180 "unconnected-(J4-Pad4)")
-	(net 181 "unconnected-(J4-Pad1)")
-	(net 182 "unconnected-(J4-Pad3)")
+	(net 165 "unconnected-(J2-V+-Pad1)")
+	(net 166 "unconnected-(J2-D--Pad2)")
+	(net 167 "unconnected-(J2-D+-Pad3)")
+	(net 168 "unconnected-(J2-GND-Pad4)")
+	(net 169 "unconnected-(J3-D+-Pad3)")
+	(net 170 "unconnected-(J3-V+-Pad1)")
+	(net 171 "unconnected-(J3-D--Pad2)")
+	(net 172 "unconnected-(J3-GND-Pad4)")
+	(net 173 "unconnected-(J4-D--Pad2)")
+	(net 174 "unconnected-(J4-GND-Pad4)")
+	(net 175 "unconnected-(J4-V+-Pad1)")
+	(net 176 "unconnected-(J4-D+-Pad3)")
 	(footprint "cftkb:MX-6.25U-Stabilizer"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005da59a47")
@@ -432,7 +426,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d962567")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -713,7 +707,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9b6c4d")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -1116,7 +1110,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/00000000-0000-0000-0000-00005d175b8c")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0.79 -2.08)
@@ -2220,7 +2214,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-00005d1ad596")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.29 -1.236)
@@ -2448,7 +2442,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005daf3589")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -2803,7 +2797,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d979033")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -3158,7 +3152,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005db46ca4")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -3513,7 +3507,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005dbb2425")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -3868,7 +3862,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005db72f2d")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -4223,7 +4217,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005dba3760")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -4578,7 +4572,7 @@
 		(property ki_fp_filters "DIP*W15.24mm*")
 		(path "/00000000-0000-0000-0000-00005d1828c7")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 14.08 -1.33)
@@ -5740,7 +5734,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d1b3faf")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -6086,7 +6080,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005d22be46")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0.621 -0.92)
@@ -6287,7 +6281,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005d22bd08")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0.621 -0.92)
@@ -6488,7 +6482,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005d176d89")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 4.77 1.055)
@@ -6729,7 +6723,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005d176ed3")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0.23 -1.07)
@@ -6970,7 +6964,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9bd1fb")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -7421,7 +7415,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d96d22f")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -7776,7 +7770,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d979055")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -8131,7 +8125,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d985d0d")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -8486,7 +8480,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d990aec")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -8841,7 +8835,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d99e276")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -9196,7 +9190,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9b6c5e")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -9551,7 +9545,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9b6ce6")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -9906,7 +9900,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9b6d6e")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -10261,7 +10255,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005dae42f9")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -10616,7 +10610,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005daf35bc")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -10971,7 +10965,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005db6eccf")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -11326,7 +11320,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005db9018a")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -11681,7 +11675,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005dbc39d9")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -12036,7 +12030,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9cde6f")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -12391,7 +12385,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9625de")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -12746,7 +12740,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d96d273")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -13101,7 +13095,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d979011")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -13456,7 +13450,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d985cc9")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -13811,7 +13805,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d990aa8")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -14166,7 +14160,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d99e2dc")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -14521,7 +14515,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9b6ca2")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -14876,7 +14870,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9b6d7f")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -15231,7 +15225,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9b6dd4")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -15586,7 +15580,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9d0dd3")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -15941,7 +15935,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005dae09b3")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -16296,7 +16290,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005db46ce8")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -16651,7 +16645,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005db93128")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -17006,7 +17000,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005dbb2414")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -17361,7 +17355,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005dbc39c8")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -17716,7 +17710,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9cfc89")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -18071,7 +18065,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d962589")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -18426,7 +18420,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d96d21e")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -18781,7 +18775,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d985ceb")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -19136,7 +19130,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d990aca")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -19491,7 +19485,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d99e2cb")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -19846,7 +19840,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9b6cb3")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -20201,7 +20195,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9b6cd5")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -20556,7 +20550,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9b6c3c")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -20911,7 +20905,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9d0d6d")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -21266,7 +21260,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005dad8cdf")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -21621,7 +21615,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005daf359a")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -21976,7 +21970,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005db46cd7")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -22331,7 +22325,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005db9984e")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -22686,7 +22680,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005dbb23d0")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -23041,7 +23035,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005dbc3984")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -23396,7 +23390,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9d1715")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -23751,7 +23745,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9625cd")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -24106,7 +24100,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d96d262")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -24461,7 +24455,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d979066")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -24816,7 +24810,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d985d1e")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -25171,7 +25165,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d990afd")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -25526,7 +25520,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d99e2fe")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -25881,7 +25875,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9b6d5d")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -26236,7 +26230,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9b6d3b")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -26591,7 +26585,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9b6db2")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -26946,7 +26940,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9d0da0")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -27301,7 +27295,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005dadd4f5")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -27656,7 +27650,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005db4d5e7")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -28011,7 +28005,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9d3731")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -28366,7 +28360,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9625ef")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -28721,7 +28715,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d96d284")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -29076,7 +29070,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d979022")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -29431,7 +29425,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d985cda")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -29786,7 +29780,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d990ab9")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -30141,7 +30135,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d99e298")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -30496,7 +30490,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9b6d08")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -30851,7 +30845,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9b6c6f")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -31206,7 +31200,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9b6d90")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -31561,7 +31555,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9d0de4")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -31916,7 +31910,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005db4d5b4")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -32271,7 +32265,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005dbd1bb5")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -32626,7 +32620,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9d69ac")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -32981,7 +32975,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9625ab")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -33336,7 +33330,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d96d240")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -33691,7 +33685,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d99e2ba")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -34046,7 +34040,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9b6bf8")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -34401,7 +34395,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d9d0d8f")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -34756,7 +34750,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005daf35de")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -35111,7 +35105,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005dbb23bf")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -35466,7 +35460,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005dbc3973")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -35821,7 +35815,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d184b7b")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -36176,7 +36170,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005d184d75")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.33 1)
@@ -36529,7 +36523,7 @@
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/00000000-0000-0000-0000-00005d2f73b7")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 3.8 -1.5)
@@ -36672,7 +36666,7 @@
 		(property ki_fp_filters "IDC?Header*2x03* Pin?Header*2x03*")
 		(path "/00000000-0000-0000-0000-00005d525b77")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 3.81 2.54)
@@ -36889,7 +36883,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005d059885")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.68 0)
@@ -37150,7 +37144,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005d059db7")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.68 0)
@@ -37411,7 +37405,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005d1c25ec")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.68 0)
@@ -37672,7 +37666,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005d1c27d1")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.68 0)
@@ -37933,7 +37927,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005d2b8cd8")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.68 0)
@@ -38194,7 +38188,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005d1ada68")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.68 0)
@@ -38455,7 +38449,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005d19ed3b")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.68 0)
@@ -38715,7 +38709,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d18d9c7")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -39060,7 +39054,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9b8e9a")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -39341,7 +39335,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d96d251")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -39622,7 +39616,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d978fef")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -39903,7 +39897,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d985ca7")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -40184,7 +40178,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d990a86")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -40465,7 +40459,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d99e2a9")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -40746,7 +40740,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9b6c80")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -41027,7 +41021,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9b6c09")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -41308,7 +41302,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9b6da1")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -41589,7 +41583,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005dfa567a")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -41870,7 +41864,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005daf3578")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -42151,7 +42145,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005db46cc6")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -42432,7 +42426,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005db6ece0")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -42713,7 +42707,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9cde80")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -42994,7 +42988,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d96d1fc")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -43275,7 +43269,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d979000")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -43556,7 +43550,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d985cb8")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -43837,7 +43831,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d990a97")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -44118,7 +44112,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d99e254")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -44399,7 +44393,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9b6c91")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -44680,7 +44674,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9b6c1a")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -44961,7 +44955,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9b6d19")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -45242,7 +45236,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9d0d3a")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -45523,7 +45517,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005dac576d")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -45804,7 +45798,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005daf35ab")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -46085,7 +46079,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005db46c93")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -21.59 -4.445)
@@ -46394,7 +46388,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005db93117")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -46675,7 +46669,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005dbb2436")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -46956,7 +46950,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9cfc9a")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -16.8275 -4.445)
@@ -47237,7 +47231,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d962578")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -47518,7 +47512,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d96d20d")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -47799,7 +47793,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d978fde")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -48080,7 +48074,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d985c96")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -48361,7 +48355,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d990a75")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -48642,7 +48636,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d99e287")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -48923,7 +48917,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9b6bd6")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -49204,7 +49198,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9b6c2b")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -49485,7 +49479,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9d0d4b")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -49766,7 +49760,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005dacaf0b")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -50047,7 +50041,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005daf35cd")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -50328,7 +50322,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005db46cb5")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -16.8275 -4.445)
@@ -50609,7 +50603,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005db9983d")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -50890,7 +50884,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005dbb23e1")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -51171,7 +51165,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9d1726")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -19.20875 -4.445)
@@ -51452,7 +51446,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005dc0a9ca")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -14.44625 -4.445)
@@ -51733,7 +51727,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d962545")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -52014,7 +52008,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d96d1da")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -52295,7 +52289,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d978fcd")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -52576,7 +52570,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d985c85")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -52857,7 +52851,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d990a64")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -53138,7 +53132,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d99e30f")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -53419,7 +53413,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9b6be7")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -53700,7 +53694,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9b6cc4")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -53981,7 +53975,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9b6de5")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -54262,7 +54256,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9d0df5")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -54543,7 +54537,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005dad121d")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -54824,7 +54818,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005db4d5c5")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -23.97125 -4.445)
@@ -55133,7 +55127,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9d3742")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -23.97125 -4.445)
@@ -55442,7 +55436,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d962534")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -55723,7 +55717,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d96d1c9")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -56004,7 +55998,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d979044")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -56285,7 +56279,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d985cfc")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -56566,7 +56560,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d990adb")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -56847,7 +56841,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d99e265")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -57128,7 +57122,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9b6cf7")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -57409,7 +57403,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9b6d2a")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -57690,7 +57684,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9b6d4c")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -57971,7 +57965,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9d0d7e")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -58252,7 +58246,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005dbd1bc6")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -58533,7 +58527,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9d69bd")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -16.8275 -4.445)
@@ -58814,7 +58808,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005dc142c8")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -14.44625 -4.445)
@@ -59095,7 +59089,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d962556")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -14.44625 -4.445)
@@ -59376,7 +59370,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005dfa567b")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -59657,7 +59651,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d96d1eb")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -16.8275 -4.445)
@@ -59938,7 +59932,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005dc217a7")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -14.44625 -4.445)
@@ -60219,7 +60213,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d99e2ed")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -60500,7 +60494,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005dc32fed")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -60781,7 +60775,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9b6dc3")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -14.44625 -4.445)
@@ -61062,7 +61056,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d9d0db1")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -16.8275 -4.445)
@@ -61343,7 +61337,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005dc7d93d")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -14.44625 -4.445)
@@ -61624,7 +61618,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005daf35ef")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -14.44625 -4.445)
@@ -61905,7 +61899,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005dfa567c")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -62186,7 +62180,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005dba374f")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -62467,7 +62461,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005dbb23f2")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -62748,7 +62742,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005dbc39a6")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -12.065 -4.445)
@@ -63027,7 +63021,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d127de0")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 4.48 1.75)
@@ -63388,7 +63382,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/00000000-0000-0000-0000-00005d1f9bed")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.76 2.525)
@@ -63656,7 +63650,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005db4d5d6")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -28.73375 -4.445)
@@ -64052,7 +64046,7 @@
 		(property ki_fp_filters "CONN4_1734366-1_TEC")
 		(path "/f645e94a-1d4f-4b53-98da-5dba8617c664")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -4.031101 -2.397)
@@ -64062,7 +64056,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1ca84f6d-9fc4-4fe1-80f6-9c0691930d88")
+			(uuid "bb17af3b-9b80-4b0a-9589-8f3112d58a24")
 		)
 		(fp_line
 			(start -4.031101 4.208795)
@@ -64072,7 +64066,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7c313aa6-dc8f-40e9-866a-fcca56c538ff")
+			(uuid "108576ee-4b33-4412-a21d-8307332edcc3")
 		)
 		(fp_line
 			(start -4.031101 5.273799)
@@ -64082,7 +64076,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a85c6c6e-4d23-4d78-a463-e7db740a7809")
+			(uuid "9087f0cd-a93c-487f-a90f-6f976078ff26")
 		)
 		(fp_line
 			(start 11.031099 -2.397)
@@ -64092,7 +64086,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "671fa338-3eaa-40e5-a576-3ef0672f12c7")
+			(uuid "e1696e75-53be-4797-adc1-59df00f66064")
 		)
 		(fp_line
 			(start 11.031099 1.211057)
@@ -64102,7 +64096,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "96dfd2dc-d8bb-4bda-a241-97d15add8d85")
+			(uuid "62593ee9-c146-4103-b08e-f3cec91cd78f")
 		)
 		(fp_line
 			(start 11.031099 5.273799)
@@ -64112,7 +64106,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e2b8b50c-663e-4865-8ccb-68e084ddd651")
+			(uuid "55826e75-ac53-414d-a894-1681949ad70b")
 		)
 		(fp_circle
 			(center 0 -3.81)
@@ -64123,7 +64117,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "e2717a60-77b8-47e4-b386-acbce7e3121e")
+			(uuid "069c0244-538e-4a87-9215-71c5e0f86606")
 		)
 		(fp_circle
 			(center 0 -3.81)
@@ -64134,7 +64128,7 @@
 			)
 			(fill no)
 			(layer "B.SilkS")
-			(uuid "93f73228-f5b6-4f1c-b5c2-63b9bf54a830")
+			(uuid "2be729b4-8844-4695-80ea-05857a09e5d9")
 		)
 		(fp_line
 			(start -4.771801 -2.524)
@@ -64144,7 +64138,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "42745c02-afec-442f-8efb-8de34f9b095f")
+			(uuid "1f93b17b-1451-4c5f-a112-325306f58c15")
 		)
 		(fp_line
 			(start -4.771801 5.400799)
@@ -64154,7 +64148,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f3a5161f-f85a-448a-9d23-48ec47ccdc08")
+			(uuid "fa3ac2d2-1269-4a0b-8a5f-012658a86722")
 		)
 		(fp_line
 			(start 11.771799 -2.524)
@@ -64164,7 +64158,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6508b934-e3d1-4a71-9b7e-da013d9d8ebb")
+			(uuid "f39ef2ba-7876-407e-9c9d-55cfc578066e")
 		)
 		(fp_line
 			(start 11.771799 5.400799)
@@ -64174,7 +64168,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "82138548-141c-42bf-9c0a-825832bb187a")
+			(uuid "28246c53-d346-4d49-bca2-dce9e4a63d33")
 		)
 		(fp_line
 			(start -3.904101 -2.27)
@@ -64184,7 +64178,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "97036fa4-d6c9-4d78-ae68-12ef631b95b3")
+			(uuid "02e19715-968a-4051-a34d-40035de033bb")
 		)
 		(fp_line
 			(start -3.904101 5.146799)
@@ -64194,7 +64188,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e5dbe6d7-17ed-4c32-9736-50b53aa27012")
+			(uuid "44e6ad5a-761e-49c2-84af-27e8319095c2")
 		)
 		(fp_line
 			(start 10.904099 -2.27)
@@ -64204,7 +64198,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8271b736-5f6b-46bb-9e38-8d9b7de17890")
+			(uuid "c30495c8-f2cf-4f19-960d-51b842dd85eb")
 		)
 		(fp_line
 			(start 10.904099 5.146799)
@@ -64214,7 +64208,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e785af2c-2606-4c4e-ad1b-ec920e30ad6b")
+			(uuid "899b79af-03d3-4be5-a543-4beff4186605")
 		)
 		(fp_circle
 			(center 0 2.54)
@@ -64225,7 +64219,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "d011484c-12b5-4d6b-9d6c-980304474615")
+			(uuid "d621ce23-60fc-47c4-a9d4-edc543eb3dde")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 3.499999 0 0)
@@ -64245,8 +64239,8 @@
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 181 "unconnected-(J4-Pad1)")
-			(pinfunction "1")
+			(net 175 "unconnected-(J4-V+-Pad1)")
+			(pinfunction "V+")
 			(pintype "unspecified")
 			(uuid "d7cb0ef5-ff32-4153-80e8-13c1ecddbb65")
 		)
@@ -64256,8 +64250,8 @@
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 178 "unconnected-(J4-Pad2)")
-			(pinfunction "2")
+			(net 173 "unconnected-(J4-D--Pad2)")
+			(pinfunction "D-")
 			(pintype "unspecified")
 			(uuid "268d04f3-5df6-40cf-b767-70bd836d37d2")
 		)
@@ -64267,8 +64261,8 @@
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 182 "unconnected-(J4-Pad3)")
-			(pinfunction "3")
+			(net 176 "unconnected-(J4-D+-Pad3)")
+			(pinfunction "D+")
 			(pintype "unspecified")
 			(uuid "e88cfbcd-d758-423b-bd1d-a51e84c0fa87")
 		)
@@ -64278,8 +64272,8 @@
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 180 "unconnected-(J4-Pad4)")
-			(pinfunction "4")
+			(net 174 "unconnected-(J4-GND-Pad4)")
+			(pinfunction "GND")
 			(pintype "unspecified")
 			(uuid "d0902383-b160-44da-bac3-6f8559a48f3d")
 		)
@@ -64289,9 +64283,6 @@
 			(drill 2.3876)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 179 "unconnected-(J4-Pad5)")
-			(pinfunction "5")
-			(pintype "unspecified")
 			(uuid "b1a4d28e-9562-44a5-a304-0bbd9c0ea6da")
 		)
 		(pad "6" thru_hole circle
@@ -64300,23 +64291,9 @@
 			(drill 2.3876)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 177 "unconnected-(J4-Pad6)")
-			(pinfunction "6")
-			(pintype "unspecified")
 			(uuid "2508064e-4d34-4119-8a68-aba3637bc137")
 		)
 		(embedded_fonts no)
-		(model "/home/robin/kicad/library/ul_1734366-1/KiCADv6/footprints.pretty/CONN4_1734366-1_TEC.kicad_mod"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "PTA6043-2015DPB103:POT_PTA6043"
 		(layer "F.Cu")
@@ -64374,7 +64351,7 @@
 		(property ki_fp_filters "POT_PTA6043")
 		(path "/a24f1ecd-54ad-4894-9d66-43b524fba109")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.3627 -0.889)
@@ -64384,7 +64361,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "23a3c10a-f193-4069-81f3-f2e90601fbaf")
+			(uuid "c6113e58-3906-412e-b885-a35dcfd5cb1d")
 		)
 		(fp_line
 			(start -1.34874 -0.889)
@@ -64394,7 +64371,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "837497d1-edd7-418c-be40-a4ed5527abef")
+			(uuid "7f86e9a0-cea0-4a33-82b1-415db6f26f01")
 		)
 		(fp_line
 			(start -2.8829 -0.889)
@@ -64404,7 +64381,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3a273e4f-f9fe-4cbe-a824-9dc39a695a36")
+			(uuid "6d5d2b6d-9a3b-468a-9586-528173f8d0be")
 		)
 		(fp_line
 			(start 6.3627 4.056249)
@@ -64414,7 +64391,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a25f38a7-8adc-47e4-aa62-688e74c0bb78")
+			(uuid "163082e2-6fc9-439a-9042-8d2fcbe2b266")
 		)
 		(fp_line
 			(start -2.8829 5.468751)
@@ -64424,7 +64401,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d3469e3b-05f7-4f3d-a295-50bf46fbf683")
+			(uuid "ca08f13e-381f-4174-b9c2-d113154cebeb")
 		)
 		(fp_line
 			(start 6.3627 66.794249)
@@ -64434,7 +64411,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c4dd1664-3b05-4eb4-b6c2-65c7d39f44ca")
+			(uuid "4614bea0-55a7-4364-a727-4447ee11cfc6")
 		)
 		(fp_line
 			(start -2.8829 70.492751)
@@ -64444,7 +64421,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "30a77ac3-b0f3-4a40-bafa-4ac816552622")
+			(uuid "c4ed77f2-ca61-4e7f-bc3f-2458b13ccb12")
 		)
 		(fp_line
 			(start 6.3627 74.295)
@@ -64454,7 +64431,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e537be8b-1faf-411a-b325-589899e8b714")
+			(uuid "47c224d9-1b6e-4e76-9763-6d5fe036a178")
 		)
 		(fp_line
 			(start 4.494087 74.295)
@@ -64464,7 +64441,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cd434445-45e7-4e85-a20d-74daa2eb5151")
+			(uuid "7b841b04-96b7-4cc0-9a0e-6ad172f5065e")
 		)
 		(fp_line
 			(start 1.014287 74.295)
@@ -64474,7 +64451,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9d05450d-d5a0-4dd3-bef1-557e32977907")
+			(uuid "02eabfac-9078-48ca-a21b-9042c1364488")
 		)
 		(fp_line
 			(start -2.8829 74.295)
@@ -64484,7 +64461,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d7bc5436-8ae4-4f89-8934-859080fbfb97")
+			(uuid "64c62a91-258f-4402-a02a-320a90797376")
 		)
 		(fp_circle
 			(center 0 -2.032)
@@ -64495,7 +64472,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "6064b083-026d-49ad-9650-433ab77d3717")
+			(uuid "988e1824-13a3-4b0c-a6f7-c3ced04051ae")
 		)
 		(fp_line
 			(start 1.27 -1.27)
@@ -64505,7 +64482,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1d72f5d1-d73e-4655-a474-a9829496ab58")
+			(uuid "1144d713-6689-438c-9535-b644811af0dc")
 		)
 		(fp_line
 			(start -1.27 -1.27)
@@ -64515,7 +64492,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ed7f4d84-d26b-4a20-aa0b-3d55077ce8bb")
+			(uuid "f1c41fc2-540f-406d-b387-9d88a5e931b3")
 		)
 		(fp_line
 			(start 6.4897 -1.016)
@@ -64525,7 +64502,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "de3eaf05-daa6-46b8-b467-4545660d85d7")
+			(uuid "07024f48-7ee2-46ce-9e50-e59c44f17cb3")
 		)
 		(fp_line
 			(start 1.27 -1.016)
@@ -64535,7 +64512,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a551b3ad-ae1e-4b44-ad41-a7ef28e50e08")
+			(uuid "1bf66cb9-0a39-4b00-96da-653a85fa9789")
 		)
 		(fp_line
 			(start -1.27 -1.016)
@@ -64545,7 +64522,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e7d6cc16-d00b-45da-9651-c9f5a6d2a9cf")
+			(uuid "fe2fe22c-8397-4fd0-a4e5-e7cad12928d9")
 		)
 		(fp_line
 			(start -3.0099 -1.016)
@@ -64555,7 +64532,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a78b123f-276d-4504-b939-c8d6fa3ea951")
+			(uuid "dc9c6018-e2a3-4cd3-b499-3ae1a2697223")
 		)
 		(fp_line
 			(start 6.4897 74.422)
@@ -64565,7 +64542,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1c038916-cff7-4b5b-b029-0c82df22fad2")
+			(uuid "1c8b7526-78c4-4b5e-a0d4-df91eeb86637")
 		)
 		(fp_line
 			(start 4.7498 74.422)
@@ -64575,7 +64552,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "473020ae-1c52-4ebf-87f1-2807a9ba45f8")
+			(uuid "344a7d9c-0a42-4548-9a92-0b8fd7430adf")
 		)
 		(fp_line
 			(start -1.27 74.422)
@@ -64585,7 +64562,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "cad3fbb9-0dda-4bdf-9d0b-570f893e0d87")
+			(uuid "98864120-705f-4788-aa03-867da511fc06")
 		)
 		(fp_line
 			(start -3.0099 74.422)
@@ -64595,7 +64572,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9bfc2382-9667-47a4-abb8-d246e13ee318")
+			(uuid "d8bb826f-d1d6-421e-8593-882cd43886b1")
 		)
 		(fp_line
 			(start 4.7498 74.676)
@@ -64605,7 +64582,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ad8f02ff-62a5-4163-b400-994c462be19f")
+			(uuid "eb391b79-55ad-4410-a0fd-a05801c8da4d")
 		)
 		(fp_line
 			(start -1.27 74.676)
@@ -64615,7 +64592,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "07f83c7d-e8ca-4079-ab68-51daa51f33e7")
+			(uuid "ab9d616c-03ce-451b-bbf7-fa68da0e01cb")
 		)
 		(fp_line
 			(start 6.2357 -0.762)
@@ -64625,7 +64602,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2594fede-c3b5-48f4-8113-de608c67bfad")
+			(uuid "72ae3561-febd-425b-a80c-e011bf150b75")
 		)
 		(fp_line
 			(start -2.7559 -0.762)
@@ -64635,7 +64612,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e5c873e5-780f-442f-bfdd-a1a43291b281")
+			(uuid "9869ea05-53cb-459f-b9fd-3a442cb69bed")
 		)
 		(fp_line
 			(start 3.0099 9.2456)
@@ -64645,7 +64622,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0f225c1b-2208-4058-8ca5-45bbf5c52c47")
+			(uuid "593436e5-c0be-47c2-9568-9a2b765ccbfa")
 		)
 		(fp_line
 			(start 0.4699 9.2456)
@@ -64655,7 +64632,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "53269bfe-cc8f-4851-97f9-804a99851013")
+			(uuid "c8afaa9c-d36c-4e63-92ca-8a5071b56f2c")
 		)
 		(fp_line
 			(start 3.0099 64.1604)
@@ -64665,7 +64642,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a6764eb7-a2b7-42a2-823d-3cdd3367d41d")
+			(uuid "c60b87b3-d6f4-4f2a-8e4f-2473155c6ca7")
 		)
 		(fp_line
 			(start 0.4699 64.1604)
@@ -64675,7 +64652,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "606cd709-5c57-45c1-9cb1-90ac76d70360")
+			(uuid "e6e40207-8f02-4492-a184-070bcc33289b")
 		)
 		(fp_line
 			(start 6.2357 74.168)
@@ -64685,7 +64662,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9e09c749-cda0-4110-a18d-4e1b90554f83")
+			(uuid "9447eda1-41da-4cb0-8351-1fa577d60bb3")
 		)
 		(fp_line
 			(start -2.7559 74.168)
@@ -64695,7 +64672,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bc1387ce-52df-4cd8-92e7-f79e0b8da691")
+			(uuid "f91acd50-8048-48fd-ae4e-5b7d3ae7fa16")
 		)
 		(fp_circle
 			(center 0 -0.381)
@@ -64706,7 +64683,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "749745a1-7be3-4a97-8c68-c0532ddc55a5")
+			(uuid "99547f49-b58c-4d3e-9a7f-4bff723531bb")
 		)
 		(fp_poly
 			(pts
@@ -64718,7 +64695,7 @@
 			)
 			(fill yes)
 			(layer "F.Fab")
-			(uuid "591e709b-2206-4dc1-9134-e37334b8ae3d")
+			(uuid "f754930e-df9a-4219-a918-5b7e23cdd084")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 1.7399 36.703 90)
@@ -64856,7 +64833,7 @@
 		(property ki_fp_filters "SSOP*3.9x9.9mm*P0.635mm*")
 		(path "/361b7aed-2302-4440-959b-8be72b67a528")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.075 -5.08)
@@ -65352,7 +65329,7 @@
 		(property ki_fp_filters "CONN4_1734366-1_TEC")
 		(path "/da3e6e63-65d2-4e40-bce4-2fde2033e6ec")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -4.031101 -2.397)
@@ -65362,7 +65339,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ba81c085-ac6a-4725-bea0-f197d563b7e2")
+			(uuid "37c78f5e-ba5c-4a27-8046-5a9abcef2e68")
 		)
 		(fp_line
 			(start -4.031101 4.208795)
@@ -65372,7 +65349,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "26f18e90-67a3-4af4-80dc-03bd3d2b028f")
+			(uuid "17b2cb9d-c1de-41ee-b007-601712e0d6bd")
 		)
 		(fp_line
 			(start -4.031101 5.273799)
@@ -65382,7 +65359,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "db224f66-f622-4698-a2ab-1cfec2983280")
+			(uuid "c6e4f133-b75b-4b80-8f36-7ebe3f358b73")
 		)
 		(fp_line
 			(start 11.031099 -2.397)
@@ -65392,7 +65369,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2c6fbafc-d432-4fb3-9045-19f9df7f2b83")
+			(uuid "a7dac542-36de-4bb6-bb34-aaed15987c47")
 		)
 		(fp_line
 			(start 11.031099 1.211057)
@@ -65402,7 +65379,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3336132f-bb96-46eb-8935-b09051ec1cf8")
+			(uuid "48509a59-6c38-4bb7-a798-3d0487c940a6")
 		)
 		(fp_line
 			(start 11.031099 5.273799)
@@ -65412,7 +65389,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "81bd5c52-bd84-4820-8a35-d5864747baa8")
+			(uuid "14c93b72-174c-4e72-889e-f5993c6b200d")
 		)
 		(fp_circle
 			(center 0 -3.81)
@@ -65423,7 +65400,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "52d38219-890c-4b3f-a128-b42edeb99da0")
+			(uuid "a5c923bb-3d33-44ec-a87b-8d49580ac8d0")
 		)
 		(fp_circle
 			(center 0 -3.81)
@@ -65434,7 +65411,7 @@
 			)
 			(fill no)
 			(layer "B.SilkS")
-			(uuid "514fb5d1-05c6-4810-b54e-89a71e9db1f4")
+			(uuid "c3d3afc3-b9d2-4644-8a9e-535a2feebe6d")
 		)
 		(fp_line
 			(start -4.771801 -2.524)
@@ -65444,7 +65421,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c004db0d-7bbd-4ae6-a0ad-6a5016b15372")
+			(uuid "9c7e987b-4349-4d15-829e-c20c10f518b5")
 		)
 		(fp_line
 			(start -4.771801 5.400799)
@@ -65454,7 +65431,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a6e8396d-9ece-49bf-883c-b25356429eec")
+			(uuid "1998279b-4813-4211-95a1-87b00de71846")
 		)
 		(fp_line
 			(start 11.771799 -2.524)
@@ -65464,7 +65441,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a41a3d75-34f2-4b79-850c-b627557ae5ff")
+			(uuid "c07ba0c8-5154-412a-a529-35c651ea444d")
 		)
 		(fp_line
 			(start 11.771799 5.400799)
@@ -65474,7 +65451,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1b23cba6-d22b-4c02-96e8-de6ea5ca1fb4")
+			(uuid "e6978925-f74a-40ba-b5b7-dbed62b7532b")
 		)
 		(fp_line
 			(start -3.904101 -2.27)
@@ -65484,7 +65461,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c9c90b4a-6436-419b-a6db-1a02b5defa48")
+			(uuid "a9152968-336a-4cee-923e-d034c1dda2b8")
 		)
 		(fp_line
 			(start -3.904101 5.146799)
@@ -65494,7 +65471,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6a9102cc-bd5b-4e00-b366-d321c2319699")
+			(uuid "c8e48e80-b151-434e-b68d-c473a2bfc805")
 		)
 		(fp_line
 			(start 10.904099 -2.27)
@@ -65504,7 +65481,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b35fe719-cea0-4628-8738-f5d613e18d55")
+			(uuid "a58100ff-6ecd-4403-aba9-18ba190a1a87")
 		)
 		(fp_line
 			(start 10.904099 5.146799)
@@ -65514,7 +65491,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dd1a9b58-2372-470d-a6c6-b9a414384705")
+			(uuid "3364f5dc-322b-4b05-9b73-9f9114c9340a")
 		)
 		(fp_circle
 			(center 0 2.54)
@@ -65525,7 +65502,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "addebc11-ddb0-47f5-8a17-d12d6ecf7ea4")
+			(uuid "82432c7f-28da-4b97-93d0-d7b72c44a145")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 3.499999 0 0)
@@ -65545,8 +65522,8 @@
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 172 "unconnected-(J3-Pad1)")
-			(pinfunction "1")
+			(net 170 "unconnected-(J3-V+-Pad1)")
+			(pinfunction "V+")
 			(pintype "unspecified")
 			(uuid "694b0dea-9ea5-40d1-b0ea-7187d8001d97")
 		)
@@ -65556,8 +65533,8 @@
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 175 "unconnected-(J3-Pad2)")
-			(pinfunction "2")
+			(net 171 "unconnected-(J3-D--Pad2)")
+			(pinfunction "D-")
 			(pintype "unspecified")
 			(uuid "ea12027e-d6a3-4cf8-a494-bd05370667e2")
 		)
@@ -65567,8 +65544,8 @@
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 171 "unconnected-(J3-Pad3)")
-			(pinfunction "3")
+			(net 169 "unconnected-(J3-D+-Pad3)")
+			(pinfunction "D+")
 			(pintype "unspecified")
 			(uuid "18968962-d651-4bf1-9f8a-75d1c5eb5bae")
 		)
@@ -65578,8 +65555,8 @@
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 176 "unconnected-(J3-Pad4)")
-			(pinfunction "4")
+			(net 172 "unconnected-(J3-GND-Pad4)")
+			(pinfunction "GND")
 			(pintype "unspecified")
 			(uuid "ff3e3b80-6201-40a4-9a05-0b7564af0936")
 		)
@@ -65589,9 +65566,6 @@
 			(drill 2.3876)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 173 "unconnected-(J3-Pad5)")
-			(pinfunction "5")
-			(pintype "unspecified")
 			(uuid "8e0ef6ff-4a74-4cc9-b0a8-fe55e687b79d")
 		)
 		(pad "6" thru_hole circle
@@ -65600,9 +65574,6 @@
 			(drill 2.3876)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 174 "unconnected-(J3-Pad6)")
-			(pinfunction "6")
-			(pintype "unspecified")
 			(uuid "d0dcb470-3609-4419-945a-7c2c35631e63")
 		)
 		(embedded_fonts no)
@@ -65663,7 +65634,7 @@
 		(property ki_fp_filters "CONN4_1734366-1_TEC")
 		(path "/c3b35d79-fb8a-43d0-abdf-394ed0873ca2")
 		(sheetname "/")
-		(sheetfile "/home/robin/kicad/nacho-ultrafragger5000/mysterium-pcb.sch")
+		(sheetfile "nuf5k-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -4.031101 -2.397)
@@ -65673,7 +65644,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2a96fcc4-8772-4681-b1b8-56da69ca6e37")
+			(uuid "6c43c6f8-36de-4fca-9d66-f675bd77f208")
 		)
 		(fp_line
 			(start -4.031101 4.208795)
@@ -65683,7 +65654,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4ddc583f-39f1-4bb5-a9c4-6dce5615ceff")
+			(uuid "a9c85686-85d7-4353-bcdc-3b084a57a93a")
 		)
 		(fp_line
 			(start -4.031101 5.273799)
@@ -65693,7 +65664,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "48aa0556-32c5-40fc-bb8d-276b5ab87d1f")
+			(uuid "5e297648-82f6-4dbf-b07d-9559bc8b4522")
 		)
 		(fp_line
 			(start 11.031099 -2.397)
@@ -65703,7 +65674,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "02748f89-bb29-4764-995d-39337635f633")
+			(uuid "8314c9da-a916-4748-83a2-b15008132d98")
 		)
 		(fp_line
 			(start 11.031099 1.211057)
@@ -65713,7 +65684,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3ae6f25f-c9bc-4376-b63a-1177916b5879")
+			(uuid "5c94ae83-2c5b-4ab6-be60-6e7f25700a6e")
 		)
 		(fp_line
 			(start 11.031099 5.273799)
@@ -65723,7 +65694,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5c5aebb7-b40a-4a29-b2af-3e56055d50ed")
+			(uuid "785c609c-419c-4831-bf86-ffef75c7a65a")
 		)
 		(fp_circle
 			(center 0 -3.81)
@@ -65734,7 +65705,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "6dce04b1-7038-4990-a167-18d6b27a9960")
+			(uuid "0e98601e-212b-4c16-a80b-52f4173a0894")
 		)
 		(fp_circle
 			(center 0 -3.81)
@@ -65745,7 +65716,7 @@
 			)
 			(fill no)
 			(layer "B.SilkS")
-			(uuid "57b5e921-23e2-4e19-9fa1-68c86bcd28b0")
+			(uuid "acf14e7f-5ac1-448b-a399-1dcafca3b839")
 		)
 		(fp_line
 			(start -4.771801 -2.524)
@@ -65755,7 +65726,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8c4d7da5-5ddc-4d1b-905f-a1f03d9a7c32")
+			(uuid "f4ead2d6-cab6-4fb1-8502-b162e055f971")
 		)
 		(fp_line
 			(start -4.771801 5.400799)
@@ -65765,7 +65736,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d1a7824a-38ec-440a-a77d-d18d5c5f6602")
+			(uuid "79d975a3-65dd-4031-88ad-50136434f962")
 		)
 		(fp_line
 			(start 11.771799 -2.524)
@@ -65775,7 +65746,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "818203f6-5341-40d0-bd78-a473f64a216b")
+			(uuid "734283a1-93cc-49b2-ae04-02b958d36076")
 		)
 		(fp_line
 			(start 11.771799 5.400799)
@@ -65785,7 +65756,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4b1c01b7-850e-4a90-92f9-5d52faa0cb8a")
+			(uuid "a309245b-0623-4e62-a06c-459a338a8182")
 		)
 		(fp_line
 			(start -3.904101 -2.27)
@@ -65795,7 +65766,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ea854a13-1f68-4930-85f9-e6635fc943e7")
+			(uuid "6f1021c2-435b-42e2-b244-43dbac2b945b")
 		)
 		(fp_line
 			(start -3.904101 5.146799)
@@ -65805,7 +65776,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5745e22a-575c-4fda-a5a3-9848dbd1d79a")
+			(uuid "4b7751c1-fd88-4888-9904-9ad46b55da5f")
 		)
 		(fp_line
 			(start 10.904099 -2.27)
@@ -65815,7 +65786,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ae1214e0-b044-4408-9c97-1427a6d04169")
+			(uuid "cca3dd2e-6d01-40cc-875c-ef5dcfdcddf9")
 		)
 		(fp_line
 			(start 10.904099 5.146799)
@@ -65825,7 +65796,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bc4dc501-8429-457f-b265-21aee3f0ad4b")
+			(uuid "60e9fd6c-20b7-4206-a19d-d83cbbda20e4")
 		)
 		(fp_circle
 			(center 0 2.54)
@@ -65836,7 +65807,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "1f36a8b3-a60b-415e-9cee-6d08d2bac943")
+			(uuid "899dacb4-0f62-43d1-a863-08043f059c34")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 3.499999 0 0)
@@ -65856,8 +65827,8 @@
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 165 "unconnected-(J2-Pad1)")
-			(pinfunction "1")
+			(net 165 "unconnected-(J2-V+-Pad1)")
+			(pinfunction "V+")
 			(pintype "unspecified")
 			(uuid "031ab14c-99eb-4dc4-9fdb-470cda0ec264")
 		)
@@ -65867,8 +65838,8 @@
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 166 "unconnected-(J2-Pad2)")
-			(pinfunction "2")
+			(net 166 "unconnected-(J2-D--Pad2)")
+			(pinfunction "D-")
 			(pintype "unspecified")
 			(uuid "1cf15642-c0f7-4d31-bbf5-5247bf6387a2")
 		)
@@ -65878,8 +65849,8 @@
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 169 "unconnected-(J2-Pad3)")
-			(pinfunction "3")
+			(net 167 "unconnected-(J2-D+-Pad3)")
+			(pinfunction "D+")
 			(pintype "unspecified")
 			(uuid "950d7491-3972-4ae1-8b7b-5043af81dd16")
 		)
@@ -65889,8 +65860,8 @@
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 170 "unconnected-(J2-Pad4)")
-			(pinfunction "4")
+			(net 168 "unconnected-(J2-GND-Pad4)")
+			(pinfunction "GND")
 			(pintype "unspecified")
 			(uuid "c18a8299-9a76-4d29-9b89-25b99ca1f3ac")
 		)
@@ -65900,9 +65871,6 @@
 			(drill 2.3876)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 167 "unconnected-(J2-Pad5)")
-			(pinfunction "5")
-			(pintype "unspecified")
 			(uuid "37491393-f55c-4f46-b5fa-b5360c33618d")
 		)
 		(pad "6" thru_hole circle
@@ -65911,9 +65879,6 @@
 			(drill 2.3876)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 168 "unconnected-(J2-Pad6)")
-			(pinfunction "6")
-			(pintype "unspecified")
 			(uuid "60545b3e-885e-4e88-ac21-79a66e343398")
 		)
 		(embedded_fonts no)
